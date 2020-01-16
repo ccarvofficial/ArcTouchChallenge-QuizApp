@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		910E3C9F23D09636007655B6 /* KeywordsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910E3C9E23D09636007655B6 /* KeywordsModel.swift */; };
 		911873BD23D075EE00759C65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911873BC23D075EE00759C65 /* AppDelegate.swift */; };
 		911873BF23D075EE00759C65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911873BE23D075EE00759C65 /* SceneDelegate.swift */; };
 		911873C623D075F200759C65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911873C523D075F200759C65 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		910E3C9E23D09636007655B6 /* KeywordsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordsModel.swift; sourceTree = "<group>"; };
 		911873B923D075EE00759C65 /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		911873BC23D075EE00759C65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		911873BE23D075EE00759C65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		910E3C9D23D095AD007655B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				910E3C9E23D09636007655B6 /* KeywordsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		911873B023D075EE00759C65 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +110,7 @@
 				911873EC23D0766800759C65 /* Application */,
 				911873ED23D0767800759C65 /* Support Files */,
 				911873EE23D0769100759C65 /* Resources */,
+				910E3C9D23D095AD007655B6 /* Model */,
 				911873F023D076B200759C65 /* Scenes */,
 			);
 			path = Quiz;
@@ -322,6 +333,7 @@
 				911873BD23D075EE00759C65 /* AppDelegate.swift in Sources */,
 				911873BF23D075EE00759C65 /* SceneDelegate.swift in Sources */,
 				911873F523D076ED00759C65 /* HomeViewController.swift in Sources */,
+				910E3C9F23D09636007655B6 /* KeywordsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
