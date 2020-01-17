@@ -22,6 +22,7 @@ enum Constants {
     
     static let start = "Start"
     static let reset = "Reset"
+    static let ok = "OK"
     
     // MARK: - Error
     

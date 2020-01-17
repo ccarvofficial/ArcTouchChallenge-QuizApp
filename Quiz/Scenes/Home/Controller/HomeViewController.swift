@@ -37,7 +37,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         self.view = contentView
         viewModel.getQuiz { (result) in
-            print(result)
+            print(Constants.ok)
         }
     }
     
