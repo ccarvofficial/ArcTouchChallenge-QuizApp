@@ -16,7 +16,7 @@
 The app was implemented using the ArcTouch Database API, which let you make requests for list of words. The app allows you to insert words and have them counted as a hit as soon as the player types the last letter of each word,  a 5 min timer to finish the game, and of course, there will be a button to start and reset the timer.
 
 <p align="center">
-  <img src="https://github.com/ccarvofficial/quiz-challenge/blob/feature/readme-file/screenshots/github/main-01.png" alt="Quiz iOS App"/>
+  <img src="https://github.com/ccarvofficial/quiz-challenge/blob/feature/readme-file/screenshots/github/main-01-2.png" alt="Quiz iOS App"/>
 </p>
 
 ## Description
