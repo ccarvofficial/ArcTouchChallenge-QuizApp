@@ -2,14 +2,14 @@
   <img src="https://github.com/ccarvofficial/quiz-challenge/blob/feature/readme-file/screenshots/github/header.png" alt="Quiz iOS App"/>
 </p>
 
-# Quiz iOS App 🚀
+# Quiz iOS App
 
 <p align="justify">
     <img src="https://img.shields.io/badge/Swift-5-orange.svg" />
     <img src="https://img.shields.io/badge/Platforms-iOS-blue.svg?style=flat" />
 </p>
 
-> An iOS Challange for the ArchTouch
+> An iOS Challange for the ArchTouch  🚀
 
 ## About
 
@@ -26,12 +26,12 @@ Below is an overview of the functionality implemented:
 - Insert words and have them counted as a hit as soon as the player types the last letter of each word.
 - After a hit, the input box will be cleared and focus will remain on the input box.
 - There will be a 5 min timer to finish the game.
--- If the player completes the quiz in less than 5 min, an alert will praise him.
--- If the player doesn't complete within 5 min, an alert will tell him his score.
+   - If the player completes the quiz in less than 5 min, an alert will praise him.
+   - If the player doesn't complete within 5 min, an alert will tell him his score.
 - Player will be have a button to start and reset the timer.
 
 <p align="center">
-  <img src="https://github.com/ccarvofficial/quiz-challenge/blob/feature/readme-file/screenshots/github/main-02.png" alt="Quiz iOS App"/>
+  <img src="https://github.com/ccarvofficial/quiz-challenge/blob/feature/readme-file/screenshots/github/main-03.png" alt="Quiz iOS App"/>
 </p>
 
 ### Technical functionality
@@ -42,7 +42,7 @@ Below is an overview of the functionality implemented:
 - Human Interface Guidelines reference
 
 <p align="center">
-  <img src="https://github.com/ccarvofficial/quiz-challenge/blob/feature/readme-file/screenshots/github/main-03.png" alt="Quiz iOS App"/>
+  <img src="https://github.com/ccarvofficial/quiz-challenge/blob/feature/readme-file/screenshots/github/main-02.png" alt="Quiz iOS App"/>
 </p>
 
 ## Requirements
@@ -66,8 +66,8 @@ Below is an overview of the functionality implemented:
 
 <table style="width:100%">
   <tr>
-    <td><img src="https://github.com/ccarvofficial/quiz-challenge/blob/feature/readme-file/screenshots/portrait/screenshot-05.png" alt="News" width=200 height=375/></td>
-    <td><img src="https://github.com/ccarvofficial/quiz-challenge/blob/feature/readme-file/screenshots/portrait/screenshot-06.png" alt="News" width=200 height=375/></td>
+    <td><img src="https://github.com/ccarvofficial/quiz-challenge/blob/feature/readme-file/screenshots/portrait/screenshot-05.png" alt="News" width=180 height=375/></td>
+    <td><img src="https://github.com/ccarvofficial/quiz-challenge/blob/feature/readme-file/screenshots/portrait/screenshot-06.png" alt="News" width=180 height=375/></td>
   </tr>
 </table>
 
