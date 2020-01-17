@@ -67,8 +67,8 @@ Below is an overview of the functionality implemented:
 
 <table style="width:100%">
   <tr>
-    <td><img src="https://github.com/ccarvofficial/quiz-challenge/blob/feature/readme-file/screenshots/portrait/screenshot-05.png" alt="News" width=193 height=375/></td>
-    <td><img src="https://github.com/ccarvofficial/quiz-challenge/blob/feature/readme-file/screenshots/portrait/screenshot-06.png" alt="News" width=193 height=375/></td>
+    <td><img src="https://github.com/ccarvofficial/quiz-challenge/blob/development/screenshots/portrait/screenshot-05-1.png" alt="News" width=193 height=375/></td>
+    <td><img src="https://github.com/ccarvofficial/quiz-challenge/blob/development/screenshots/portrait/screenshot-06-1.png" alt="News" width=193 height=375/></td>
   </tr>
 </table>
 
