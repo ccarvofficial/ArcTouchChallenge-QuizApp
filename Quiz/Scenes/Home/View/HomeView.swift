@@ -79,7 +79,7 @@ class HomeView: UIView {
     }
     
     func moveTextfieldDown() {
-        self.detailsView.frame.origin.y = (self.frame.height - self.detailsView.frame.height - self.safeAreaInsets.bottom)
+        self.detailsView.frame.origin.y = (self.frame.height - self.detailsView.frame.height)
     }
 }
 
