@@ -39,7 +39,7 @@ class HomeView: UIView {
         textField.layer.cornerRadius = 8
         textField.setLeftPaddingPoints(8)
         textField.setRightPaddingPoints(8)
-        textField.placeholder = "Insert word"
+        textField.placeholder = Constants.insertWord
         textField.isEnabled = false
         textField.addTarget(viewController, action: #selector(viewController?.textFieldDidChange(_:)), for: .allEditingEvents)
         return textField

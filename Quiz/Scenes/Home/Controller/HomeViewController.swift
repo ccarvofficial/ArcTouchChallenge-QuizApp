@@ -147,7 +147,7 @@ class HomeViewController: UIViewController {
             present(alertController, animated: true, completion: nil)
         case .failure:
             title = Constants.timeFinished
-            message = "Sorry, time is up. You got \(count ?? 0) out of \(max ?? 0) answers."
+            message = "Sorry, time is up! You got \(count ?? 0) out of \(max ?? 0) answers."
             let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
             let action = UIAlertAction(title: Constants.tryAgain, style: .default) { (action) in
                 self.reset()
