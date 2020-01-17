@@ -15,7 +15,7 @@ class LoadingView: UIView {
     
     lazy var backdropView: UIView = {
         let view = UIView()
-        view.backgroundColor = UIColor.init(red: 0, green: 0, blue: 0, alpha: 0.5)
+        view.backgroundColor = Constants.colors.quizBackdrop
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
@@ -23,7 +23,7 @@ class LoadingView: UIView {
     lazy var alertView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = UIColor(red: 0.1, green: 0.1, blue: 0.1, alpha: 1)
+        view.backgroundColor = Constants.colors.quizAlertView
         view.layer.masksToBounds = true
         view.layer.cornerRadius = 20
         return view

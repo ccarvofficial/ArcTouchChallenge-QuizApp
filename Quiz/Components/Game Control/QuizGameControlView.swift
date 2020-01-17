@@ -31,12 +31,12 @@ class QuizGameControlView: UIView {
     lazy var button: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.backgroundColor = UIColor(red: 255/255, green: 131/255, blue: 0, alpha: 1)
+        button.backgroundColor = Constants.colors.quizOrange
         button.layer.masksToBounds = true
         button.layer.cornerRadius = 8
         button.setTitle("Start", for: .normal)
         button.titleLabel?.textColor = .white
-        button.titleLabel?.font = UIFont.systemFont(ofSize: 17, weight: .semibold) //TODO: Mudar peso da fonte
+        button.titleLabel?.font = UIFont.systemFont(ofSize: 17, weight: .semibold)
         return button
     }()
     
@@ -50,7 +50,6 @@ class QuizGameControlView: UIView {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
 }
 
 // MARK: - Extensions
@@ -87,6 +86,6 @@ extension QuizGameControlView: ViewCode {
     }
     
     func setupAdditionalConfiguration() {
-        self.backgroundColor = UIColor(red: 245/255, green: 245/255, blue: 245/255, alpha: 1)
+        self.backgroundColor = Constants.colors.quizLightGray
     }
 }

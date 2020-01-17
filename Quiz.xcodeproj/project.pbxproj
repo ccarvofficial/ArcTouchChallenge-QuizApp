@@ -17,6 +17,7 @@
 		910E3CD123D0E329007655B6 /* QuizGameControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910E3CD023D0E329007655B6 /* QuizGameControlView.swift */; };
 		910E3CD523D0E3A6007655B6 /* ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910E3CD423D0E3A6007655B6 /* ViewCode.swift */; };
 		910E3CD723D0E47F007655B6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910E3CD623D0E47F007655B6 /* Utils.swift */; };
+		910E3CDA23D12491007655B6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910E3CD923D12491007655B6 /* Constants.swift */; };
 		911873BD23D075EE00759C65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911873BC23D075EE00759C65 /* AppDelegate.swift */; };
 		911873BF23D075EE00759C65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911873BE23D075EE00759C65 /* SceneDelegate.swift */; };
 		911873C623D075F200759C65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911873C523D075F200759C65 /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 		910E3CD023D0E329007655B6 /* QuizGameControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizGameControlView.swift; sourceTree = "<group>"; };
 		910E3CD423D0E3A6007655B6 /* ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCode.swift; sourceTree = "<group>"; };
 		910E3CD623D0E47F007655B6 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		910E3CD923D12491007655B6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		911873B923D075EE00759C65 /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		911873BC23D075EE00759C65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		911873BE23D075EE00759C65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				910E3CD623D0E47F007655B6 /* Utils.swift */,
+				910E3CD823D12460007655B6 /* Constants */,
 				910E3CD223D0E385007655B6 /* Protocols */,
 				910E3CBE23D0E046007655B6 /* Custom */,
 			);
@@ -183,6 +186,14 @@
 				910E3CD423D0E3A6007655B6 /* ViewCode.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		910E3CD823D12460007655B6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				910E3CD923D12491007655B6 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		911873B023D075EE00759C65 = {
@@ -448,6 +459,7 @@
 				910E3CC723D0E140007655B6 /* HomeView.swift in Sources */,
 				910E3C9F23D09636007655B6 /* KeywordsModel.swift in Sources */,
 				910E3CC023D0E058007655B6 /* CustomError.swift in Sources */,
+				910E3CDA23D12491007655B6 /* Constants.swift in Sources */,
 				910E3CCB23D0E1BD007655B6 /* LoadingView.swift in Sources */,
 				910E3CD523D0E3A6007655B6 /* ViewCode.swift in Sources */,
 			);

@@ -12,20 +12,24 @@ class QuizService: QuizGateway {
     
     // MARK: - URL
     
-    var urlString = "https://codechallenge.arctouch.com/quiz/1"
+    var urlString: URL {
+        get {
+            guard let url = URL(string: Constants.api.baseURL) else {
+                fatalError("Error creating baseURL with: \(Constants.api.baseURL)")
+            }
+            return url
+        }
+    }
     
     // MARK: - Fetch Keywords
     
     func getQuiz(completion: @escaping (Result<KeywordsModel, CustomError>) -> Void) {
-        guard let url = URL(string: urlString) else {
-            return
-        }
-        let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
+        let task = URLSession.shared.dataTask(with: urlString) { (data, response, error) in
             if (error != nil) {
-                completion(.failure(CustomError(message: "Error on request")))
+                completion(.failure(CustomError(message: Constants.errorRequest)))
             }
             guard let data = data else {
-                completion(.failure(CustomError(message: "No data received")))
+                completion(.failure(CustomError(message: Constants.errorData)))
                 return
             }
             do {
@@ -35,7 +39,7 @@ class QuizService: QuizGateway {
                 }
             } catch _ {
                 DispatchQueue.main.async {
-                    completion(.failure(CustomError(message: "Error decoding data")))
+                    completion(.failure(CustomError(message: Constants.errorDecodingData)))
                 }
             }
         }

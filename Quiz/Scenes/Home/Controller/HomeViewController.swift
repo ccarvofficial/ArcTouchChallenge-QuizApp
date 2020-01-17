@@ -8,11 +8,6 @@
 
 import UIKit
 
-enum AlertType {
-    case sucess
-    case failure
-}
-
 class HomeViewController: UIViewController {
     
     // MARK: - Propreties
@@ -27,7 +22,7 @@ class HomeViewController: UIViewController {
     var isPlaying = false {
         didSet {
             contentView?.inputTextField.isEnabled = isPlaying
-            contentView?.detailsView.button.setTitle(isPlaying ? "Reset" : "Start", for: .normal)
+            contentView?.detailsView.button.setTitle(isPlaying ? Constants.reset : Constants.start, for: .normal)
             
             if (!isPlaying) {
                 timer?.invalidate()
@@ -99,7 +94,6 @@ class HomeViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    
     // MARK: - Actions
     
     @objc func textFieldDidChange(_ textField: UITextField) {
@@ -136,25 +130,25 @@ class HomeViewController: UIViewController {
     
     // MARK: - Methods
     
-    func presentAlert(type: AlertType, count: Int?, max: Int?) {
+    func presentAlert(type: Constants.AlertType, count: Int?, max: Int?) {
         var title = ""
         var message = ""
         
         switch type{
         case .sucess:
-            title = "Congratulations"
-            message = "Good job. You found all the answers on time. Keep up with the great work."
+            title = Constants.congratulations
+            message = Constants.finishGameText
             let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
-            let action = UIAlertAction(title: "Play again", style: .default) { (action) in
+            let action = UIAlertAction(title: Constants.playAgain, style: .default) { (action) in
                 self.reset()
             }
             alertController.addAction(action)
             present(alertController, animated: true, completion: nil)
         case .failure:
-            title = "Time finished"
+            title = Constants.timeFinished
             message = "Sorry, time is up. You got \(count ?? 0) out of \(max ?? 0) answers."
             let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
-                let action = UIAlertAction(title: "Try again", style: .default) { (action) in
+            let action = UIAlertAction(title: Constants.tryAgain, style: .default) { (action) in
                 self.reset()
             }
             alertController.addAction(action)
