@@ -23,6 +23,7 @@ class HomeViewController: UIViewController {
         didSet {
             contentView?.inputTextField.isEnabled = isPlaying
             contentView?.detailsView.button.setTitle(isPlaying ? Constants.reset : Constants.start, for: .normal)
+            contentView?.inputTextField.becomeFirstResponder()
             
             if (!isPlaying) {
                 timer?.invalidate()
@@ -44,14 +45,14 @@ class HomeViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        self.setupTextFieldObservers()  // referente a preferencia keyboard
+        self.setupTextFieldObservers()
     }
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         self.removeObservers()
     }
-    
+   
     // MARK: - Methods
     
     private func removeObservers() {
