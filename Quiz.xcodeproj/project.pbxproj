@@ -41,6 +41,7 @@
 		91F9B0EF23D167AD003BFAA3 /* screenshot-09.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F9B0E123D167AD003BFAA3 /* screenshot-09.png */; };
 		91F9B0F023D167AD003BFAA3 /* screenshot-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F9B0E223D167AD003BFAA3 /* screenshot-10.png */; };
 		91F9B0F123D167AD003BFAA3 /* screenshot-07.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F9B0E323D167AD003BFAA3 /* screenshot-07.png */; };
+		91F9B0F323D172BE003BFAA3 /* main-01-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F9B0F223D172BE003BFAA3 /* main-01-2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		91F9B0E123D167AD003BFAA3 /* screenshot-09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-09.png"; sourceTree = "<group>"; };
 		91F9B0E223D167AD003BFAA3 /* screenshot-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-10.png"; sourceTree = "<group>"; };
 		91F9B0E323D167AD003BFAA3 /* screenshot-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-07.png"; sourceTree = "<group>"; };
+		91F9B0F223D172BE003BFAA3 /* main-01-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main-01-2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -381,6 +383,7 @@
 			children = (
 				91F9B0DB23D167AD003BFAA3 /* header.png */,
 				91F9B0DC23D167AD003BFAA3 /* main-02.png */,
+				91F9B0F223D172BE003BFAA3 /* main-01-2.png */,
 				91F9B0DD23D167AD003BFAA3 /* main-03.png */,
 				91F9B0DE23D167AD003BFAA3 /* main-01.png */,
 			);
@@ -502,6 +505,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91F9B0F323D172BE003BFAA3 /* main-01-2.png in Resources */,
 				91F9B0F023D167AD003BFAA3 /* screenshot-10.png in Resources */,
 				91F9B0E423D167AD003BFAA3 /* screenshot-04.png in Resources */,
 				91F9B0E723D167AD003BFAA3 /* screenshot-02.png in Resources */,
