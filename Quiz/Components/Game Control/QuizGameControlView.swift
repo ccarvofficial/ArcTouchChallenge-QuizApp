@@ -15,7 +15,7 @@ class QuizGameControlView: UIView {
     lazy var counterLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.font = UIFont.systemFont(ofSize: 34, weight: .bold)
+        label.font = .quizLargeFont
         label.text = "00/50"
         return label
     }()
@@ -23,7 +23,7 @@ class QuizGameControlView: UIView {
     lazy var timerLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.font = UIFont.systemFont(ofSize: 34, weight: .bold)
+        label.font = .quizLargeFont
         label.text = "05:00"
         return label
     }()
@@ -36,7 +36,7 @@ class QuizGameControlView: UIView {
         button.layer.cornerRadius = 8
         button.setTitle("Start", for: .normal)
         button.titleLabel?.textColor = .white
-        button.titleLabel?.font = UIFont.systemFont(ofSize: 17, weight: .semibold)
+        button.titleLabel?.font = .quizButtonFont
         return button
     }()
     

@@ -27,7 +27,7 @@ class HomeView: UIView {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.numberOfLines = 2
         label.text = "Question"
-        label.font = UIFont.systemFont(ofSize: 34, weight: .bold)
+        label.font = .quizLargeFont
         return label
     }()
     

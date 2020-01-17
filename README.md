@@ -30,6 +30,7 @@ Below is an overview of the functionality implemented:
    - If the player doesn't complete within 5 min, an alert will tell him his score.
 - Player will be have a button to start and reset the timer.
 
+
 <p align="center">
   <img src="https://github.com/ccarvofficial/quiz-challenge/blob/feature/readme-file/screenshots/github/main-03.png" alt="Quiz iOS App"/>
 </p>
@@ -80,6 +81,10 @@ Below is an overview of the functionality implemented:
     <td><img src="https://github.com/ccarvofficial/quiz-challenge/blob/feature/readme-file/screenshots/landscape/screenshot-08.png" alt="News" width=800 height=200/></td>
   </tr>
 </table>
+
+## Utils
+
+* [**Gitignore**](https://www.gitignore.io)
 
 ## Installation
 

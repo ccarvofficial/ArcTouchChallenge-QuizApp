@@ -25,6 +25,10 @@
 		911873D423D075F200759C65 /* QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911873D323D075F200759C65 /* QuizTests.swift */; };
 		911873DF23D075F200759C65 /* QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911873DE23D075F200759C65 /* QuizUITests.swift */; };
 		911873F523D076ED00759C65 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911873F423D076ED00759C65 /* HomeViewController.swift */; };
+		91E8FC0A23D1E04D008AB821 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 91E8FC0723D1E04C008AB821 /* SF-Pro-Display-Bold.otf */; };
+		91E8FC0B23D1E04D008AB821 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 91E8FC0823D1E04C008AB821 /* SF-Pro-Display-Semibold.otf */; };
+		91E8FC0C23D1E04D008AB821 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 91E8FC0923D1E04D008AB821 /* SF-Pro-Display-Regular.otf */; };
+		91E8FC0E23D1E0B4008AB821 /* UIFonts+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E8FC0D23D1E0B4008AB821 /* UIFonts+Extensions.swift */; };
 		91F9B0CF23D163B6003BFAA3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 91F9B0CE23D163B6003BFAA3 /* .gitignore */; };
 		91F9B0D123D166E0003BFAA3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 91F9B0D023D166E0003BFAA3 /* README.md */; };
 		91F9B0E423D167AD003BFAA3 /* screenshot-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F9B0D423D167AD003BFAA3 /* screenshot-04.png */; };
@@ -86,6 +90,10 @@
 		911873DE23D075F200759C65 /* QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizUITests.swift; sourceTree = "<group>"; };
 		911873E023D075F200759C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		911873F423D076ED00759C65 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		91E8FC0723D1E04C008AB821 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		91E8FC0823D1E04C008AB821 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		91E8FC0923D1E04D008AB821 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		91E8FC0D23D1E0B4008AB821 /* UIFonts+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFonts+Extensions.swift"; sourceTree = "<group>"; };
 		91F9B0CE23D163B6003BFAA3 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		91F9B0D023D166E0003BFAA3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		91F9B0D423D167AD003BFAA3 /* screenshot-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-04.png"; sourceTree = "<group>"; };
@@ -153,6 +161,7 @@
 				910E3CD823D12460007655B6 /* Constants */,
 				910E3CD223D0E385007655B6 /* Protocols */,
 				910E3CBE23D0E046007655B6 /* Custom */,
+				91E8FC0623D1DFC9008AB821 /* Fonts */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -202,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				910E3CCD23D0E24A007655B6 /* UITextField+Extensions.swift */,
+				91E8FC0D23D1E0B4008AB821 /* UIFonts+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -239,7 +249,7 @@
 				911873D223D075F200759C65 /* QuizTests */,
 				911873DD23D075F200759C65 /* QuizUITests */,
 				911873BA23D075EE00759C65 /* Products */,
-				91F9B0D223D167AD003BFAA3 /* screenshots */,
+				91F9B0D223D167AD003BFAA3 /* sreenshots */,
 			);
 			sourceTree = "<group>";
 		};
@@ -355,14 +365,24 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		91F9B0D223D167AD003BFAA3 /* screenshots */ = {
+		91E8FC0623D1DFC9008AB821 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				91E8FC0723D1E04C008AB821 /* SF-Pro-Display-Bold.otf */,
+				91E8FC0923D1E04D008AB821 /* SF-Pro-Display-Regular.otf */,
+				91E8FC0823D1E04C008AB821 /* SF-Pro-Display-Semibold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		91F9B0D223D167AD003BFAA3 /* sreenshots */ = {
 			isa = PBXGroup;
 			children = (
 				91F9B0D323D167AD003BFAA3 /* portrait */,
 				91F9B0DA23D167AD003BFAA3 /* github */,
 				91F9B0DF23D167AD003BFAA3 /* landscape */,
 			);
-			path = screenshots;
+			path = sreenshots;
 			sourceTree = "<group>";
 		};
 		91F9B0D323D167AD003BFAA3 /* portrait */ = {
@@ -508,13 +528,16 @@
 				91F9B0F323D172BE003BFAA3 /* main-01-2.png in Resources */,
 				91F9B0F023D167AD003BFAA3 /* screenshot-10.png in Resources */,
 				91F9B0E423D167AD003BFAA3 /* screenshot-04.png in Resources */,
+				91E8FC0B23D1E04D008AB821 /* SF-Pro-Display-Semibold.otf in Resources */,
 				91F9B0E723D167AD003BFAA3 /* screenshot-02.png in Resources */,
 				911873C923D075F200759C65 /* LaunchScreen.storyboard in Resources */,
 				91F9B0F123D167AD003BFAA3 /* screenshot-07.png in Resources */,
+				91E8FC0A23D1E04D008AB821 /* SF-Pro-Display-Bold.otf in Resources */,
 				91F9B0CF23D163B6003BFAA3 /* .gitignore in Resources */,
 				91F9B0E623D167AD003BFAA3 /* screenshot-06.png in Resources */,
 				91F9B0D123D166E0003BFAA3 /* README.md in Resources */,
 				91F9B0EB23D167AD003BFAA3 /* main-02.png in Resources */,
+				91E8FC0C23D1E04D008AB821 /* SF-Pro-Display-Regular.otf in Resources */,
 				91F9B0EE23D167AD003BFAA3 /* screenshot-08.png in Resources */,
 				91F9B0EF23D167AD003BFAA3 /* screenshot-09.png in Resources */,
 				91F9B0EA23D167AD003BFAA3 /* header.png in Resources */,
@@ -562,6 +585,7 @@
 				910E3CDA23D12491007655B6 /* Constants.swift in Sources */,
 				910E3CCB23D0E1BD007655B6 /* LoadingView.swift in Sources */,
 				910E3CD523D0E3A6007655B6 /* ViewCode.swift in Sources */,
+				91E8FC0E23D1E0B4008AB821 /* UIFonts+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
