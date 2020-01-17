@@ -25,13 +25,13 @@
 		911873D423D075F200759C65 /* QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911873D323D075F200759C65 /* QuizTests.swift */; };
 		911873DF23D075F200759C65 /* QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911873DE23D075F200759C65 /* QuizUITests.swift */; };
 		911873F523D076ED00759C65 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911873F423D076ED00759C65 /* HomeViewController.swift */; };
+		916BE7DC23D1FF4400CF6FD7 /* screenshot-06.png in Resources */ = {isa = PBXBuildFile; fileRef = 916BE7DA23D1FF4400CF6FD7 /* screenshot-06.png */; };
+		916BE7DD23D1FF4400CF6FD7 /* screenshot-05.png in Resources */ = {isa = PBXBuildFile; fileRef = 916BE7DB23D1FF4400CF6FD7 /* screenshot-05.png */; };
 		91E8FC0A23D1E04D008AB821 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 91E8FC0723D1E04C008AB821 /* SF-Pro-Display-Bold.otf */; };
 		91E8FC0B23D1E04D008AB821 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 91E8FC0823D1E04C008AB821 /* SF-Pro-Display-Semibold.otf */; };
 		91E8FC0C23D1E04D008AB821 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 91E8FC0923D1E04D008AB821 /* SF-Pro-Display-Regular.otf */; };
 		91E8FC0E23D1E0B4008AB821 /* UIFonts+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E8FC0D23D1E0B4008AB821 /* UIFonts+Extensions.swift */; };
 		91E8FC4323D1F04D008AB821 /* screenshot-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E8FC3223D1F04D008AB821 /* screenshot-04.png */; };
-		91E8FC4423D1F04D008AB821 /* screenshot-05.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E8FC3323D1F04D008AB821 /* screenshot-05.png */; };
-		91E8FC4523D1F04D008AB821 /* screenshot-06.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E8FC3423D1F04D008AB821 /* screenshot-06.png */; };
 		91E8FC4623D1F04D008AB821 /* screenshot-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E8FC3523D1F04D008AB821 /* screenshot-02.png */; };
 		91E8FC4723D1F04D008AB821 /* screenshot-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E8FC3623D1F04D008AB821 /* screenshot-03.png */; };
 		91E8FC4823D1F04D008AB821 /* screenshot-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E8FC3723D1F04D008AB821 /* screenshot-01.png */; };
@@ -90,13 +90,13 @@
 		911873DE23D075F200759C65 /* QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizUITests.swift; sourceTree = "<group>"; };
 		911873E023D075F200759C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		911873F423D076ED00759C65 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		916BE7DA23D1FF4400CF6FD7 /* screenshot-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-06.png"; sourceTree = "<group>"; };
+		916BE7DB23D1FF4400CF6FD7 /* screenshot-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-05.png"; sourceTree = "<group>"; };
 		91E8FC0723D1E04C008AB821 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
 		91E8FC0823D1E04C008AB821 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
 		91E8FC0923D1E04D008AB821 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
 		91E8FC0D23D1E0B4008AB821 /* UIFonts+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFonts+Extensions.swift"; sourceTree = "<group>"; };
 		91E8FC3223D1F04D008AB821 /* screenshot-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-04.png"; sourceTree = "<group>"; };
-		91E8FC3323D1F04D008AB821 /* screenshot-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-05.png"; sourceTree = "<group>"; };
-		91E8FC3423D1F04D008AB821 /* screenshot-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-06.png"; sourceTree = "<group>"; };
 		91E8FC3523D1F04D008AB821 /* screenshot-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-02.png"; sourceTree = "<group>"; };
 		91E8FC3623D1F04D008AB821 /* screenshot-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-03.png"; sourceTree = "<group>"; };
 		91E8FC3723D1F04D008AB821 /* screenshot-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-01.png"; sourceTree = "<group>"; };
@@ -389,9 +389,9 @@
 		91E8FC3123D1F04D008AB821 /* portrait */ = {
 			isa = PBXGroup;
 			children = (
+				916BE7DA23D1FF4400CF6FD7 /* screenshot-06.png */,
+				916BE7DB23D1FF4400CF6FD7 /* screenshot-05.png */,
 				91E8FC3223D1F04D008AB821 /* screenshot-04.png */,
-				91E8FC3323D1F04D008AB821 /* screenshot-05.png */,
-				91E8FC3423D1F04D008AB821 /* screenshot-06.png */,
 				91E8FC3523D1F04D008AB821 /* screenshot-02.png */,
 				91E8FC3623D1F04D008AB821 /* screenshot-03.png */,
 				91E8FC3723D1F04D008AB821 /* screenshot-01.png */,
@@ -528,11 +528,10 @@
 			files = (
 				91E8FC4F23D1F04D008AB821 /* screenshot-09.png in Resources */,
 				91E8FC0B23D1E04D008AB821 /* SF-Pro-Display-Semibold.otf in Resources */,
-				91E8FC4523D1F04D008AB821 /* screenshot-06.png in Resources */,
 				91E8FC4B23D1F04D008AB821 /* main-02.png in Resources */,
+				916BE7DC23D1FF4400CF6FD7 /* screenshot-06.png in Resources */,
 				91E8FC5123D1F04D008AB821 /* screenshot-07.png in Resources */,
 				91E8FC4C23D1F04D008AB821 /* main-03.png in Resources */,
-				91E8FC4423D1F04D008AB821 /* screenshot-05.png in Resources */,
 				91E8FC4A23D1F04D008AB821 /* header.png in Resources */,
 				911873C923D075F200759C65 /* LaunchScreen.storyboard in Resources */,
 				91E8FC0A23D1E04D008AB821 /* SF-Pro-Display-Bold.otf in Resources */,
@@ -545,6 +544,7 @@
 				91E8FC0C23D1E04D008AB821 /* SF-Pro-Display-Regular.otf in Resources */,
 				91E8FC4D23D1F04D008AB821 /* main-01.png in Resources */,
 				91E8FC4723D1F04D008AB821 /* screenshot-03.png in Resources */,
+				916BE7DD23D1FF4400CF6FD7 /* screenshot-05.png in Resources */,
 				91E8FC4E23D1F04D008AB821 /* screenshot-08.png in Resources */,
 				91E8FC5023D1F04D008AB821 /* screenshot-10.png in Resources */,
 				911873C623D075F200759C65 /* Assets.xcassets in Resources */,
